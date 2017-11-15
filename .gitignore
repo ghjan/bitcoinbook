@@ -1,5 +1,7 @@
-dump.asciidoc
-code/python-env
-*.csv
-*.pdf
-.debris
+.idea/*
+*.pyc
+build/*
+project.egg-info/
+setup.py
+*/__pycache__/*
+*/spiders/__pycache__/*

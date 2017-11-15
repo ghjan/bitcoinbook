@@ -34,6 +34,6 @@ while (line[1] == '-'):
     elif alt_num:
         bip_num = alt_num.group(1)
 
-    print "|[[bip-{0}]]https://github.com/bitcoin/bips/blob/master/bip-{0:04d}.mediawiki[BIP-{0}] |{1} |{2} |{3} |{4} ".format(int(bip_num), line_title, line_owner, line_type, line_status)
+    print("|[[bip-{0}]]https://github.com/bitcoin/bips/blob/master/bip-{0:04d}.mediawiki[BIP-{0}] |{1} |{2} |{3} |{4} ".format(int(bip_num), line_title, line_owner, line_type, line_status))
 
 f.close()

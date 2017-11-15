@@ -56,12 +56,12 @@ def main():
     ]
     
     if len(argv) > 1: 
-        target = long(argv[1])
+        target = int(argv[1])
     else:
         target = 55000000
         
-    print "For transaction amount %d Satoshis (%f bitcoin) use: " % (target, target/10.0**8)
-    print select_outputs_greedy(unspent, target)
+    print("For transaction amount %d Satoshis (%f bitcoin) use: " % (target, target/10.0**8))
+    print(select_outputs_greedy(unspent, target))
 
 if __name__ == "__main__":
     main()

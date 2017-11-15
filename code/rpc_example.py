@@ -7,4 +7,4 @@ p = RawProxy()
 info = p.getinfo()
 
 # Retrieve the 'blocks' element from the info
-print(info['blocks'])
+print((info['blocks']))

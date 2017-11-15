@@ -12,5 +12,5 @@ def max_money():
         current_reward /= 2
     return total
 
-print "Total BTC to ever be created:", max_money(), "Satoshis"
+print("Total BTC to ever be created:", max_money(), "Satoshis")
 
